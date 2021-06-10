@@ -1,0 +1,101 @@
+* {
+    margin:auto;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    text-align: center;
+}
+header {
+    margin-top: 10px;
+}
+.table {
+    width: 1000px;
+    height: 450px;
+    border: thick double lightskyblue;
+    margin:20px auto;
+    position: relative;
+    border-radius: 20px;
+}
+.main {
+    float: left;
+    width: 30%;
+    border: 1px solid lightsteelblue;
+    height: 100%;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    
+}
+#city {
+    font-size: 30px;
+  margin: 20px auto;
+  border: 2px solid lightsteelblue;
+  border-radius: 10px;
+  text-align-last: center;
+  color: lightskyblue;
+}
+hr {
+    margin-top: 20px;
+    border: 1px dashed;
+    color:blue
+}
+.temp {
+    font-size: 80px;
+    color:cornflowerblue;
+    margin: 10px auto;
+
+}
+    .air {
+        font-size: 25px;
+        color:cornflowerblue;
+        margin: 10px auto;
+    }
+
+hr{
+    color:lightsteelblue;
+}
+.detales {
+    float: left;
+    width: 40%;
+    border: 1px solid lightsteelblue;
+    height: 100%;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: cornflowerblue;
+}
+.feels, .humidity, .pressure, .visibility{
+
+     text-transform: uppercase;
+}
+
+p.arrow, .hum-value, .feels-value, .pr-value, .vis-value {
+    line-height: 0.5;
+    color:green
+}
+.sys {
+    float: left;
+    width: 30%;
+    height: 100%;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+.wind {
+    margin-top: 40px;
+}
+.wind-value {
+    font-size: 25px;
+    color: lightskyblue;
+}
+.cwl {
+    color: lightskyblue;
+}
+.trend {
+    font-size: 60px;
+    color: red;
+}
+.deg {
+    color: lightskyblue;
+}
