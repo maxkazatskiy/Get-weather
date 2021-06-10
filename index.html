@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<!-- https://samples.openweathermap.org/data/2.5/forecast?q=M%C3%BCnchen,DE&appid=439d4b804bc8187953eb36d2a8c26a02 -->
+<!-- http://api.openweathermap.org/data/2.5/weather?q=London&appid=910e3585edf586af5dc9a059e290abd6 -->
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Прогноз погоды по API</h1>
+            <h2>JavaScript</h2>
+        </header>
+        <div class="table">
+            <div class="main">
+                <!-- <select id="city">
+                    <option value="524894">Moscow</option>
+                    <option value="498817">St Petersburg</option>
+                    <option value="2013348">Vladivostok</option>
+                    <option value="491422">Sochi</option>
+                    <option value="323776">Antalya</option>
+                </select> -->
+                <hr>
+                <p class="temp"></p>
+                <p class="air"></p>
+                <hr>
+                <div class="features"></div>
+            </div>
+            <div class="detales">
+
+                <div class="feels">feels like </div>
+                <p class="arrow"> &#8595</p>
+                <p class="feels-value">15</p>
+
+                <div class="humidity">humidity </div>
+                <p class="arrow"> &#8595</p>
+                <p class="hum-value">77%</p>
+
+                <div class="pressure">pressure</div>
+                <p class="arrow"> &#8595</p>
+                <p class="pr-value">1005mb</p>
+                <!-- <hr> -->
+                <div class="visibility">visibility</div>
+                <p class="arrow"> &#8595</p>
+                <p class="vis-value">10000 miles</p>
+
+
+            </div>
+            <div class="sys">
+                <div class="row">
+                    <div class="col-6 fw-bold"> Time</div>
+                    <div class="col-6 time"> fffgff</div>
+                </div>
+                <div class="row">
+                    <div class="col-6 fw-bold"> Sunrise</div>
+                    <div class="col-6 sunrise"> fffgff</div>
+                </div>
+                <div class="row">
+                    <div class="col-6 fw-bold"> Sunset</div>
+                    <div class="col-6 sunset"> fffgff</div>
+                </div>
+                <hr>
+                <p class="wind">
+                <h3 class="cwl">Wind Speed</h3>
+                </p>
+                <p class="wind-value"></p>
+                <p class="deg"></p>
+                <p class="trend"></p>
+            </div>
+
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
